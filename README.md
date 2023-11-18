@@ -4,3 +4,5 @@ Personal Profile Page
 This a Project to my profile which showcases information about me and necessary socials.
 <br>
 Added index file
+<br>
+Added all social links
