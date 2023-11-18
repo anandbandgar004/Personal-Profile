@@ -6,3 +6,5 @@ This a Project to my profile which showcases information about me and necessary 
 Added index file
 <br>
 Added all social links
+<br>
+ADDED HOVER
