@@ -17,34 +17,72 @@
             }
             .personal_profile_page
             {
-                display: flex;
-                flex: 1;
                 justify-content: center;
                 align-items: center;
-                font-size: larger;
+                font-size: 450;
+                margin: 10px;
+                align-content: center;
+                display: grid;
             }
             .container
             {
-                padding: 45px;
+                padding: 30px;
             }
             .info_box
             {
-                padding: auto;
+                padding: 50px;
+                border-style: solid;
+                border-radius: 20px;
+                margin-top: 45px;
+                display: flex;
+                flex-direction: column;
+                flex: 1;
+                align-items: center;
+            }
+            img
+            {
+                width: 70px;
+                align-items: center;
+                padding-left: 10px;
+                padding-bottom: 15px;
+            }
+            button
+            {
+                background-color: black;
+                color: aliceblue;
+                width: 100px;
+                height: 35px;
+                margin: 20px;
+            }
+            .info_head
+            {
+                margin: 0;
+                padding-left: 10px;
+            }
+            .info_text
+            {
+                font-weight: 700;
             }
         </style>
     </head>
     <body>
         <div class="container">
             <div class="heading_container">
-                <h1 class="web_heading">Anand Bandgar</h1><br>
-                <hr size="7" width="100%" color="black">
+                <h1 class="web_heading">Anand Bandgar</h1><br>                
                 <h1 class="personal_profile_page">Personal Profile Page</h1>
+                <hr size="7" width="100%" color="black">
             </div>
             <div class="info_box">
                 <img src="/Personal-Profile/human icon.png" alt="Image Not Found">
-                <h1>Portfolio</h1>
-                
-
+                <h1 class="info_head">Portfolio</h1>
+                <p class="info_text">Have look at my profile and portfolio </p>
+                <a href="" target="_blank"><button>Enter</button></a>
+            </div>
+            <div class="info_box">
+                <img src="/Personal-Profile/github-mark-white.png" alt="Image Not Found">
+                <h1 class="info_head">Github</h1>
+                <p class="info_text">Have look at my github profile </p>
+                <a href="https://github.com/anandbandgar004" target="_blank" ><button>Enter</button></a>
             </div>
         </div>
         
