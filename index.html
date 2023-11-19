@@ -16,7 +16,7 @@
                 body
                 {
                     background-color:grey;
-                    border: 5px;
+                    
                 }
                 .box_total
                 {
@@ -57,6 +57,7 @@
                     background-color: black;
                     color: azure;
                     transition: 0.20ms;
+                    scale:calc(1.05);
                 }
                 img
                 {
@@ -93,10 +94,36 @@
                 }
                 .mail
                 {
-                    background-color: black;
-                    color: rgb(217, 239, 239);
+                    background-color: rgb(255, 255, 255);
+                    color: rgb(0, 0, 0);
                     padding-left: 25px;
                     border-radius: 3px;
+                    margin-bottom: 0px;
+                    display: flex;
+                    align-items: center;
+                    height: 30px;
+                }
+                .mail_button
+                {
+                    width: 50px;
+                    height: 25px;
+                    margin: 20px;
+                    padding: 2px; 
+                    border-radius: 15px;
+                }
+                .mail_button:hover
+                {
+                    background-color: rgb(123, 224, 100);
+                }
+                .bottom
+                {
+                    background-color: black;
+                    color: aliceblue;
+                    padding: 20px;
+                    margin-top: 0px;
+                    border-radius: 5px;
+                    justify-content:center;
+                    display: flex;
                 }
             </style>
         </head>
@@ -134,8 +161,14 @@
                 </div>
                 </div>
             </div>
-            <div class="mail">
-                <h4>Mail: anandbandgar3000@gmail.com</h4>
+            <div>
+                <div class="mail">
+                    <h4>Mail: anandbandgar3000@gmail.com</h4>
+                    <a href="mailto: anandbandgar3000@gmail.com" target="_blank"><button class="mail_button">Mail</button></a>
+                </div>
+                <div class="bottom">
+                    <span>Copyright Reserved &#169 &#124 Anand Bandgar</span>
+                </div>
             </div>
         </body>
     </html>
