@@ -1,69 +1,151 @@
-    <!DOCTYPE html>
-    <html>
-        <head>
-            <title>Portfolio</title>
-            <style>
-                body
-                {
-                        background-color:grey;
-                }
-                .container
-                {
-                    display:block;
-                }
-                .profile
-                {
-                    display: flex;
-                    justify-content:center ;
-                    font-size:75px;
-                    font-weight: 800;
-                    margin: 20px;
+        <!DOCTYPE html>
+        <html>
+            <head>
+                <title>Portfolio</title>
+                <style>
+                    body
+                    {
+                            background-color:grey;
+                    }
+                    .container
+                    {
+                        display:block;
+                    }
+                    .profile
+                    {
+                        display: flex;
+                        justify-content:center ;
+                        font-size:75px;
+                        font-weight: 800;
+                        margin: 20px;
 
-                }
-                .my_image
-                {
-                    height: 200px;
-                    width: 200px;
-                    border-color: black;
-                    border-style: solid;
-                    border-radius: 125px;
-                }
-                .image
-                {
-                    display: flex;
-                    justify-content: center;
-                    margin-top: 40px;
-                }
-                .my_name
-                {
-                    font-size: 50px;
-                    display: flex;
-                    justify-content: center;
-                    margin-top: 20px;
-                    font-weight: 700;
-                }
-                .my_info
-                {
-                    display: flex;
-                    justify-content: center;
-                    margin: 20px;
-                    font-size: larger;
-                    font-weight: 600;
-                    border-radius: 5px;
-                    padding: 10px;
-                }
-            </style>
-        </head>
-        <body>
+                    }
+                    .my_image
+                    {
+                        height: 200px;
+                        width: 200px;
+                        border-color: black;
+                        border-style: solid;
+                        border-radius: 125px;
+                    }
+                    .image
+                    {
+                        display: flex;
+                        justify-content: center;
+                        margin-top: 40px;
+                    }
+                    .my_name
+                    {
+                        font-size: 50px;
+                        display: flex;
+                        justify-content: center;
+                        margin-top: 20px;
+                        font-weight: 700;
+                    }
+                    .my_info
+                    {
+                        display: flex;
+                        justify-content: center;
+                        font-size: 30px;
+                        font-weight: 600;
+                        padding: 10px;
+                    }
+                    .first_info
+                    {
+                        display: flex;
+                        justify-content: center;
+                        margin: 20px;
+                        font-size: 35px;
+                        font-weight: 600;
+                    }
+                    .about_me
+                    {
+                        display: block;
+                        background-color: rgb(84, 86, 88);
+                        margin: 20px;
+                        padding: 25px;
+                        border-radius: 10px;
+                    }
+                    .about
+                    {
+                        display: flex;
+                        justify-content: center;
+                        font-size: 35px;
+                        margin-top: 10px;
+                        font-weight: 600;
+                        margin-bottom: 10px;
+
+                    }
+                    .Socials
+                    {
+                        display: block;
+                        flex-wrap: wrap;
+                        background-color: rgb(84, 86, 88);
+                        margin: 20px;
+                        padding: 25px;
+                        border-radius: 10px;
+                    }
+                    .Socials_text
+                    {
+                        display: flex;
+                        justify-content: center;
+                        font-size: 35px;
+                        margin-top: 10px;
+                        font-weight: 600;
+                        margin-bottom: 10px;
+                    }
+                    .Socials_button
+                    {
+                        display: flex;
+                        flex-wrap: wrap;
+                        border-style: none;
+                        align-items: center;
+                        
+                    }
+                    .social_img
+                    {
+                        height: 60px;
+                        width: 60px;
+                        margin: 40px;
+                        display: flex;
+                        border-style: none;
+                    }
+                    button
+                    {
+                        
+                        border-radius: 50px;
+                        display: flex;
+                        border-style: none;
+                        background-color: black;
+                        margin: 20px;
+                        align-self: center;
+                    }
+                </style>
+            </head>
+            <body>
             <div class="container">
-            <span class="profile">Portfolio</span><br>
-            <hr size="10" width="100%" color="black" style="border-radius: 4px;">
-            <div class="image"><img src="WhatsApp_Image_2023-11-14_at_11.35.38_cc34b4b11-removebg-preview.png" class="my_image"></div>
-            <div class="my_name">Anand Bandgar</div>
-            <div class="my_info">HELLO, it is me Anand Bandgar. I am a student of Software Engineering at MIT Academy Of Engineering, Alandi.
-                Also I am a coder, I a code in languages like C, HTML, CSS, etc., and learning many more languages.
+                <span class="profile">Portfolio</span><br>
+                <hr size="10" width="100%" color="black" style="border-radius: 4px;">
+                <div class="image"><img src="WhatsApp_Image_2023-11-14_at_11.35.38_cc34b4b11-removebg-preview.png" class="my_image"></div>
+                <div>
+                    <div class="my_name">Anand Bandgar</div>
+                    <div class="first_info">Student &#124 Coder</div>
+                </div>
+                <div class="about_me">
+                    <div class="about">About Me:</div>
+                    <div class="my_info">I am a student of Software Engineering at MIT Academy Of Engineering, Alandi.
+                        Also I am a coder, I a code in languages like C, HTML, CSS, etc., and learning many more languages.
+                    </div>
+                </div>
+                <div class="Socials">
+                    <div class="Socials_text">Socials:</div>
+                    <div class="Socials_button">
+                        <a href="https://www.instagram.com/anandbandgar004/" target="_blank"><button><img src="instagram-logo-transparent-background-2.png" class="social_img"></button></a>
+                        <a href="https://www.linkedin.com/in/anandbandgar/" target="_blank"><button><img src="linkedIn_PNG9.png" class="social_img"></button></a>
+                        <a href="https://github.com/anandbandgar004" target="_blank"><button><img src="github-mark-white.png" class="social_img"></button></a>
+                    </div>
+                </div>
             </div>
-        </div>
-            
-        </body>
-    </html>
+                
+            </body>
+        </html>
