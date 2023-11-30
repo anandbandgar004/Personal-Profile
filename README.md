@@ -8,3 +8,7 @@ Added index file
 Added all social links
 <br>
 ADDED HOVER
+<br>
+Added background image
+<br>
+added media query
